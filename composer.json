@@ -1,0 +1,35 @@
+{
+    "name": "anolek/twig-livewire",
+    "description": " A Laravel Livewire integration for Twig engine.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean-Clément Niguès",
+            "email": "jc@nigu.es"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "livewire/liveware": "^2.0",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4|^9.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Anolek\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
