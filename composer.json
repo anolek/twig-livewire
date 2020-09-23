@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "livewire/liveware": "^2.0",
+        "livewire/livewire": "^2.0",
         "illuminate/support": "^7.0|^8.0"
     },
     "require-dev": {
